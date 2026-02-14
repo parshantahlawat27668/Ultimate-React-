@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+@layer components {
+    .inputBase {
+        @apply py-2 px-1 outline-none border border-purple-400 rounded-md text-sm
+    }
+
+    .formRow {
+        @apply grid grid-rows-1 grid-cols-3 gap-4    md:w-180
+    }
+
+
+
+}
+
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px transparent inset;
+  -webkit-text-fill-color: inherit;
+  transition: background-color 9999s ease-in-out 0s;
+}
