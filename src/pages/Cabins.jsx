@@ -1,4 +1,4 @@
-import Addcabin from '../features/cabins/Addcabin.jsx';
+import AddCabin from '../features/cabins/AddCabin.jsx';
 import CabinTable from '../features/cabins/CabinTable.jsx';
 import CabinTableOperations from '../features/cabins/CabinTableOperations.jsx';
 
@@ -11,7 +11,7 @@ const Cabins = () => {
       <CabinTableOperations/>
       </div>
       <CabinTable/>
-      <Addcabin/>
+      <AddCabin/>
     </div>
   )
 }
