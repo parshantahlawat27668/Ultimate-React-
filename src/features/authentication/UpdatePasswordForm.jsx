@@ -16,7 +16,7 @@ const UpdatePasswordForm = () => {
     return (
         <>
             <h2 className='text-lg mt-3 '>Update password</h2>
-            <form className='bg-gray-400 py-7 px-7 rounded-md flex flex-col gap-5'
+            <form className='bg-gray-800 py-7 px-7 rounded-md flex flex-col gap-5'
             onSubmit={handleSubmit(onSubmit)}
             >
                 <FormRow

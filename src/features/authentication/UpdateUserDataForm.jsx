@@ -31,7 +31,7 @@ const UpdateUserDataForm = () => {
   return (
     <>
       <h2 className='text-lg mt-3 '>Update user data</h2>
-      <form className='bg-gray-400 py-7 px-7 rounded-md flex flex-col gap-5' onSubmit={handleSubmit}>
+      <form className='bg-gray-800 py-7 px-7 rounded-md flex flex-col gap-5' onSubmit={handleSubmit}>
         <FormRow label="Email address">
           <input className='inputBase' value={email} disabled />
         </FormRow>
